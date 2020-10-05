@@ -1,6 +1,13 @@
+*{
+    border: 1px solid blue;
+    font-family: arial;
+    color: #660066
+}
+
 html {
     background-color: #fff;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 body {
@@ -10,6 +17,7 @@ body {
     border-radius: 5px;
     box-shadow: 5px 5px 5px #777;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 img {
@@ -25,4 +33,21 @@ img {
 #kozep {
     margin-left: 25px;
     margin-right: 25px;
+}
+#bal{
+    float: left;
+}
+#jobb {
+    float: right;
+}
+.felkialto {
+    /*Clear fix tulajdonság*/
+    
+}
+.tartalom {
+    clear: both;
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
 }
